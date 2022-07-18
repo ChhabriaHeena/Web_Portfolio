@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(234, 83, 138);
+    color: rgb(77, 0, 128);
+}
+
+.v1 {
+    border-left: 6px solid rgb(77, 0, 128);
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+
+/* self  */
+
+@media (max-width: 990px) {
+    .self .v1 {
+        display: none;
+    }
+}
+
+.container {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.sections {
+    margin-right: 30px;
+}
+
+.icons {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.sections p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.name {
+    margin-right: 90px;
+    width: 300px;
+}
+
+
+/* work  */
+
+.work .work-text {
+    width: 150%;
+}
+
+
+/* skills  */
+
+.skills .tech {
+    width: 40%;
+}
+
+@media (max-width: 1199px) {
+    .skills .v1 {
+        display: none;
+    }
+}
+
+.skills .tech .tech-info div {
+    padding-right: 30px;
+}
+
+.skills .tech .tech-info .dots {
+    font-size: 10px;
+}
+
+
+/* Interests  */
+
+.interest .container-2 {
+    margin-left: 20%;
+}
+
+
+/* education  */
+
+.education .container-1 .work-text {
+    width: 150%;
+}
